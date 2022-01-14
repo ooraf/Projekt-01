@@ -1,0 +1,164 @@
+
+
+/* header */
+
+header{
+    background-image: url('../images/head.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    height: 100vh;
+}
+
+
+nav .brand-logo{
+    position: relative !important;
+}
+
+
+/* card */
+blockquote{
+    border-left: 5px solid #ee6e73;
+    padding-right: 10px;
+}
+.portfolio-title{
+    margin-bottom: 40px;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.card:hover img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.portfolio a:hover{
+    color: #FF1744 !important;
+}
+
+.portfolio img{
+    height: 280px;
+}
+
+.card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* carousel */
+.carousel{
+    height: 500px;
+}
+.carousel .carousel-item{
+    width: 550px;
+    height: 500px;
+}
+
+.carousel .card .card-content{
+    color: #000;
+}
+
+.carousel .card .card-content p{
+   color: #999;
+}
+
+ul.tabs{
+    display: flex;
+}
+
+/* footer */
+footer h6{
+  font-weight: 600;
+}
+.flex{
+    display: flex;
+}
+.flex p{
+    line-height: 25px;
+}
+
+.social svg{
+    font-size: 20px;
+}
+
+.social div{
+    margin-top: 10px;
+}
+
+.fast{
+    display: flex;
+}
+
+.fast ul{
+    padding: 0;
+}
+
+@media screen and (max-width:1379px){
+
+    nav .brand-logo.right{
+        display:none;
+    }
+}
+@media screen and (max-width:992px){
+    nav .brand-logo.right{
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    header{
+        height: 500px;
+    }
+
+    .flex{
+        display: block;
+    }
+    .fast{
+        display: block;
+    }
+    .fast div ul{
+        text-align: center;
+    }
+    .fast div h6{
+        text-align: center;
+        /*color: gold !important;*/
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #service .row div{
+        margin: 10px 0;
+    }
+
+    #service .row div h2{
+        font-size: 28px;
+    }
+    #service .row div ul{
+        padding: 0;
+    }
+}
+@media screen and (max-width:400px) {
+    nav .brand-logo.right{
+        display: none;
+    }
+}
+
